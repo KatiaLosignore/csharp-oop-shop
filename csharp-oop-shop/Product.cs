@@ -74,7 +74,7 @@ namespace csharp_oop_shop
             Console.WriteLine($"The Product code and name : {ExtendedName()}");
             Console.WriteLine($"The Product description : {this.Description}");
             Console.WriteLine($"The base price of the product : {PriceBase()}");
-            Console.WriteLine($"The price of the product with VAT included: {PriceVatIncluded()} Euro. (Iva applicata al {this.Vat} %)");
+            Console.WriteLine($"The price of the product with VAT included: {PriceVatIncluded()} Euro. (VAT applied to {this.Vat} %)");
         }
        
     }

@@ -53,7 +53,7 @@ namespace csharp_oop_shop
             return Decimal.Round(((this.Price / 100) * this.Vat) + Price, 2);
         }
 
-        // restituisce il coddice prodotto con un pad left di 0 per arrivare a 8 caratteri 
+        // restituisco il codice prodotto con un pad left di 0 per arrivare a 8 caratteri 
 
         public string GetCodeWithPadLeft()
         {
